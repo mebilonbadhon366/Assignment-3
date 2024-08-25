@@ -4,16 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="stylesheet" href="tailwind.config.js">
+
 </head>
 <body>
     <header>
+        <nav class=" w-11/12 mx-auto  bg-[#FFFFFF]">
+            <div class="navbar   ">
+                <div class="navbar-start">
+                    <div class="h-[25px] w-[25px] bg-lime-300 text-center rounded-full mt-1">
+                        <a class="text-center"> <i class="fa-solid fa-arrow-right -rotate-45"></i></a>
+                      </div>
+                  <a class="text-2xl font-bold">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class=" font-semibold">Home</a></li>
+                      <li><a>Service</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end ">
+                    <button class=" bg-white rounded-full flex mr-7 mt-2 max-sm:hidden">
+                        <a></a><i class="fa-solid fa-magnifying-glass"></i><a></a>
+                    </button >
+                    <button class=" bg-white rounded-full flex mr-7 mt-2 max-sm:hidden"><a><i class="fa-solid fa-cart-shopping"></i></a></button>
+                  <a class="btn  max-sm:hidden text-xl font-semibold bg-lime-300 rounded-full">Book Consult  <i class="fa-solid fa-arrow-right -rotate-45"></i></a>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                      <li><a>Home</a></li>
+                      <li><a>Service</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+       <banner>
+        <div class=" flex flex-col justify-center items-center">
+            <img src="assets/banner.png">
+        </div>
+        <div class="text-center max-sm:hidden">
+            <H1 class="text-6xl font-bold mb-4">A barn house of this design has a<br>
+                striking appearance</H1>
+                <p class=" text-slate-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br> accents, and large windows that flood the space with natural light.</p>
+        </div>
+        <div class="text-center md:hidden">
+            <H1 class="text-4xl font-bold mb-4">A barn house <br>of this design has<br> a
+                striking appearance</H1>
+                <p class=" text-slate-600">The barn house captivates with its blend of rustic<br> charm and modern sophistication, featuring<br> weathered wood, sleek metal accents, and large<br> windows that flood the space with natural light.</p>
+        </div>
+        <div class="text-center mt-4 ">
+        <a class="btn text-xl w-80 font-bold bg-lime-200 rounded-full items-center">View Details 
+            <i class="fa-solid fa-arrow-right -rotate-45"></i></a>
+            </div>
+       </banner>
+           
 
     </header>
     <main>
 
     </main>>
     <footer>
-        
+
     </footer>
 </body>
 </html>
